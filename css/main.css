@@ -1092,3 +1092,50 @@ ul.faq li > div h3 {
   margin-top: 150px;
   margin-bottom: 150px;
 }
+
+.custom-btn a {
+    background: #2ecc71;
+    color: #FFFFFF !important;
+    font-weight: 600;
+	border: solid 2px #2ecc71;
+}
+
+.custom-btn a:hover {
+    background: transparent !important;
+}
+
+#mobile-topheader {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.custom-btn {
+		display: none !important;
+	}
+	
+	#mobile-topheader {
+		display: block !important;
+	}
+	
+	#mobile-topheader {
+		text-align: right;
+		padding: 10px 0px;
+	}
+	
+	#mobile-topheader a {
+		background: #2ecc71;
+		color: #FFFFFF !important;
+		font-weight: 600;
+		display: inline-block;
+		vertical-align: top;
+		padding: 8px 15px;
+		border-radius: 5px;
+		border: solid 2px #2ecc71;
+		transition: all ease 0.3s;
+	}
+		
+	#mobile-topheader a:hover {
+		background: transparent;
+	}
+}
+
